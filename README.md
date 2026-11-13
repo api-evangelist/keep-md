@@ -1,4 +1,4 @@
-# keep-md
+# Keep
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-keep-md is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://keep.md/
+Keep is a tool that saves web pages, files, emails, videos, and other content as clean Markdown for AI agents. Users can capture via web app, browser extension, CLI, or MCP server, organize, search, and export their knowledge. The service offers personal and professional plans, supports automation, and provides APIs for integration.
+
+**Areas:** AI · Productivity · KnowledgeManagement · Markdown · Automation
+
+## Keep on APIs.io
+
+Everything profiled for Keep is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/keep-md/](https://apis.io/providers/keep-md/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Keep Account API](https://apis.io/apis/keep-md/keep-md-account-api/) — The Account API from Keep — 2 operation(s) for account.
+- [Keep Clients and tokens API](https://apis.io/apis/keep-md/keep-md-clients-and-tokens-api/) — The Clients and tokens API from Keep — 5 operation(s) for clients and tokens.
+- [Keep Exports API](https://apis.io/apis/keep-md/keep-md-exports-api/) — The Exports API from Keep — 2 operation(s) for exports.
+- [Keep Highlights API](https://apis.io/apis/keep-md/keep-md-highlights-api/) — The Highlights API from Keep — 2 operation(s) for highlights.
+- [Keep Items API](https://apis.io/apis/keep-md/keep-md-items-api/) — The Items API from Keep — 13 operation(s) for items.
+- [Keep Notes API](https://apis.io/apis/keep-md/keep-md-notes-api/) — The Notes API from Keep — 13 operation(s) for notes.
+- [Keep Projects API](https://apis.io/apis/keep-md/keep-md-projects-api/) — The Projects API from Keep — 2 operation(s) for projects.
+- [Keep Search API](https://apis.io/apis/keep-md/keep-md-search-api/) — The Search API from Keep — 2 operation(s) for search.
+- [Keep Sources API](https://apis.io/apis/keep-md/keep-md-sources-api/) — The Sources API from Keep — 15 operation(s) for sources.
+- [Keep Tags and collections API](https://apis.io/apis/keep-md/keep-md-tags-and-collections-api/) — The Tags and collections API from Keep — 3 operation(s) for tags and collections.
+- [Keep Webhooks API](https://apis.io/apis/keep-md/keep-md-webhooks-api/) — The Webhooks API from Keep — 5 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Keep Md Webhooks](https://apis.io/asyncapis/keep-md/keep-md-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Keep Agentic Access](https://apis.io/agentic-access/keep-md/keep-md-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiToken](https://apis.io/schemas/keep-md/keep-md-api-token/)
+- [Item](https://apis.io/schemas/keep-md/keep-md-item/)
+- [ItemChangeEvent](https://apis.io/schemas/keep-md/keep-md-item-change-event/)
+- [NoteWriteRequest](https://apis.io/schemas/keep-md/keep-md-note-write-request/)
+- [Source](https://apis.io/schemas/keep-md/keep-md-source/)
+- [SourceCreateRequest](https://apis.io/schemas/keep-md/keep-md-source-create-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Keep Md Context](https://apis.io/jsonld/keep-md/keep-md-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Keep API Rules](https://apis.io/rules/keep-md/keep-md-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Keep Authentication](https://apis.io/security/keep-md/keep-md-authentication/)
+- [Keep Domain Security](https://apis.io/security/keep-md/keep-md-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://keep.md/)
+- [Documentation](https://keep.md/docs)
+- [API reference](https://keep.md/docs/api)
+- [Changelog](https://keep.md/changelog)
+- [Blog](https://keep.md/blog)
+- [Terms of service](https://keep.md/terms)
+- [Privacy policy](https://keep.md/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.5** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 66.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 61.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | platform (partial credit) |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/keep-md/](https://apis.io/providers/keep-md/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Keep: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/keep-md/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
